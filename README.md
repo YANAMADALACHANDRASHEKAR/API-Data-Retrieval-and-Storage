@@ -27,7 +27,7 @@ It supports pagination and request limits for efficient data access.
 ## **Project Structure**
 
 ```
-app.py
+books.py
 Books_database.db
 README.md
 ```
@@ -45,13 +45,13 @@ pip install flask
 2. Run the application:
 
 ```
-python app.py
+python books.py
 ```
 
 API runs at:
 
 ```
-http://127.0.0.1:5000
+http://127.0.0.1:5000/api/books
 ```
 
 ---
